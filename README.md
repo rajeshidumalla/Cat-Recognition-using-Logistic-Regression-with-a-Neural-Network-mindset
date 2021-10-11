@@ -170,13 +170,7 @@ To build a Logistic Regression, using a Neural Network mindset we need to unders
 
 **Mathematical expression of the algorithm**:
 
-For one example $x^{(i)}$:
-$$z^{(i)} = w^T x^{(i)} + b \tag{1}$$
-$$\hat{y}^{(i)} = a^{(i)} = sigmoid(z^{(i)})\tag{2}$$ 
-$$ \mathcal{L}(a^{(i)}, y^{(i)}) =  - y^{(i)}  \log(a^{(i)}) - (1-y^{(i)} )  \log(1-a^{(i)})\tag{3}$$
-
-The cost is then computed by summing over all training examples:
-$$ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{6}$$
+<img width="619" alt="Screen Shot 2021-10-11 at 11 27 38 am" src="https://user-images.githubusercontent.com/56792400/136718304-02d270fc-ea7c-4b7d-9697-d451d5a296aa.png">
 
 **Key steps**:
 In this exercise, I have learnt how to:
@@ -199,7 +193,7 @@ The main steps for building a Neural Network are:
 
 ### 4.1 - Helper functions
 
-As you've seen in the figure above, we need to compute $sigmoid( w^T x + b) = \frac{1}{1 + e^{-(w^T x + b)}}$ to make predictions by using using np.exp().
+As you've seen in the figure above, we need to compute sigmoid( w^T x + b) = \frac{1}{1 + e^{-(w^T x + b)}}$ to make predictions by using using np.exp().
 
 
 ```python

@@ -113,6 +113,9 @@ For convenience, reshape images of shape (num_px, num_px, 3) in a numpy-array of
 
 Reshaping the training and test data sets so that images of size (num_px, num_px, 3) are flattened into single vectors of shape (num\_px $*$ num\_px $*$ 3, 1).
 
+<img width="471" alt="Screen Shot 2021-10-11 at 4 25 58 pm" src="https://user-images.githubusercontent.com/56792400/136737577-f8afa3a5-cc45-4da0-be44-b39dccc1db47.png">
+
+
 A trick to flatten a matrix X of shape (a,b,c,d) to a matrix X_flatten of shape (b$*$c$*$d, a) is to use: 
 ```python
 X_flatten = X.reshape(X.shape[0], -1).T      # X.T is the transpose of X

@@ -587,7 +587,7 @@ print ("y = " + str(test_set_y[0,index]) + ", you predicted that it is a " + cla
 
 
     
-![png](/images/Screen Shot 2021-10-12 at 5.17.41 pm.png)
+![png](/images/12345.png)
     
 
 

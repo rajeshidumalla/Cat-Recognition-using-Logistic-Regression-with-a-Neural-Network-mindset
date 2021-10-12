@@ -69,7 +69,7 @@ print ("y = " + str(train_set_y[:, index]) + ", it's a '" + classes[np.squeeze(t
 
 
     
-![png](output_6_1.png)
+![png](/images/output_6_1.png)
     
 
 
@@ -587,7 +587,7 @@ print ("y = " + str(test_set_y[0,index]) + ", you predicted that it is a " + cla
 
 
     
-![png](output_36_1.png)
+![png](/images/output_36_1.png)
     
 
 
@@ -604,7 +604,7 @@ print ("y = " + str(test_set_y[0,index]) + ", you predicted that it is a " + cla
 
 
     
-![png](output_37_1.png)
+![png](/images/output_37_1.png)
     
 
 
@@ -623,7 +623,7 @@ plt.show()
 
 
     
-![png](output_39_0.png)
+![png](/images/output_39_0.png)
     
 
 
@@ -683,7 +683,7 @@ plt.show()
 
 
     
-![png](output_43_1.png)
+![png](/images/output_43_1.png)
     
 
 

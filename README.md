@@ -170,6 +170,8 @@ Common steps for pre-processing a new dataset are:
 It's time to design a simple algorithm to distinguish cat images from non-cat images.
 
 To build a Logistic Regression, using a Neural Network mindset we need to understand the mathematical expression.
+    
+![png](/images/pf.png)
 
 **Mathematical expression of the algorithm**:
 
